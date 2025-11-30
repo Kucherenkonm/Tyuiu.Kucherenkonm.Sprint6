@@ -32,7 +32,7 @@ namespace Tyuiu.Kucherenkonm.Sprint6.Task0.V3
         private void buttonHelp_KNM_Click(object sender, EventArgs e)
         {
 
-            MessageBox.Show("Таск 0 выполнила студентка группы ИИПб-25-1 Кучеренко Надежда Михайловна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Таск 0 выполнила студентка группы ИИПб-25-1 \n Кучеренко Надежда Михайловна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void pictureBoxFormula_KNM_Click(object sender, EventArgs e)
         {

@@ -116,6 +116,7 @@
             // 
             // textBoxResult_KNM
             // 
+            textBoxResult_KNM.BackColor = SystemColors.ButtonHighlight;
             textBoxResult_KNM.Location = new Point(42, 93);
             textBoxResult_KNM.Name = "textBoxResult_KNM";
             textBoxResult_KNM.ReadOnly = true;
