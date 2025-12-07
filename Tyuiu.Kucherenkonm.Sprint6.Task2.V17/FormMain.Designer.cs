@@ -217,7 +217,7 @@
             Controls.Add(groupBoxTask_KNM);
             MaximizeBox = false;
             Name = "FormMain";
-            Text = "Спринт 6 | Таск 2 | Вариант 28 | Кучеренко Н.М.";
+            Text = "Спринт 6 | Таск 2 | Вариант 17 | Кучеренко Н.М.";
             groupBoxTask_KNM.ResumeLayout(false);
             groupBoxTask_KNM.PerformLayout();
             groupBoxInput_KNM.ResumeLayout(false);
