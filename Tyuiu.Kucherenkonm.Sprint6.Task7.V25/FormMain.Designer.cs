@@ -191,7 +191,7 @@
             // panelRight_KNM
             // 
             panelRight_KNM.Controls.Add(groupBoxOut_KNM);
-            panelRight_KNM.Dock = DockStyle.Right;
+            panelRight_KNM.Dock = DockStyle.Fill;
             panelRight_KNM.Location = new Point(557, 171);
             panelRight_KNM.Name = "panelRight_KNM";
             panelRight_KNM.Size = new Size(617, 411);
