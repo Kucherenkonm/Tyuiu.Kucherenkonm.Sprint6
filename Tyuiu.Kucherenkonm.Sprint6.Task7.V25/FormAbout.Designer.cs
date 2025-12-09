@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.Kucherenkonm.Sprint6.Task6.V23
+﻿namespace Tyuiu.Kucherenkonm.Sprint6.Task7.V25
 {
     partial class FormAbout
     {
@@ -30,39 +30,39 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
             pictureBox_KNM = new PictureBox();
-            textBoxInfo_KNM = new TextBox();
+            textBox_KNM = new TextBox();
             buttonOk_KNM = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox_KNM).BeginInit();
             SuspendLayout();
             // 
             // pictureBox_KNM
             // 
-            pictureBox_KNM.Image = (Image)resources.GetObject("pictureBox_KNM.Image");
-            pictureBox_KNM.Location = new Point(36, 38);
+            pictureBox_KNM.Image = Properties.Resources.__3_4;
+            pictureBox_KNM.Location = new Point(30, 50);
             pictureBox_KNM.Name = "pictureBox_KNM";
-            pictureBox_KNM.Size = new Size(141, 188);
+            pictureBox_KNM.Size = new Size(136, 177);
             pictureBox_KNM.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox_KNM.TabIndex = 0;
             pictureBox_KNM.TabStop = false;
             // 
-            // textBoxInfo_KNM
+            // textBox_KNM
             // 
-            textBoxInfo_KNM.Location = new Point(242, 38);
-            textBoxInfo_KNM.Multiline = true;
-            textBoxInfo_KNM.Name = "textBoxInfo_KNM";
-            textBoxInfo_KNM.ReadOnly = true;
-            textBoxInfo_KNM.Size = new Size(345, 228);
-            textBoxInfo_KNM.TabIndex = 1;
-            textBoxInfo_KNM.Text = resources.GetString("textBoxInfo_KNM.Text");
+            textBox_KNM.Location = new Point(190, 50);
+            textBox_KNM.Multiline = true;
+            textBox_KNM.Name = "textBox_KNM";
+            textBox_KNM.ReadOnly = true;
+            textBox_KNM.Size = new Size(395, 227);
+            textBox_KNM.TabIndex = 1;
+            textBox_KNM.Text = resources.GetString("textBox_KNM.Text");
             // 
             // buttonOk_KNM
             // 
             buttonOk_KNM.FlatStyle = FlatStyle.Flat;
-            buttonOk_KNM.Location = new Point(454, 284);
+            buttonOk_KNM.Location = new Point(498, 306);
             buttonOk_KNM.Name = "buttonOk_KNM";
-            buttonOk_KNM.Size = new Size(133, 38);
+            buttonOk_KNM.Size = new Size(87, 47);
             buttonOk_KNM.TabIndex = 2;
-            buttonOk_KNM.Text = "ОК";
+            buttonOk_KNM.Text = "OK";
             buttonOk_KNM.UseVisualStyleBackColor = true;
             buttonOk_KNM.Click += buttonOk_KNM_Click;
             // 
@@ -70,15 +70,15 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(653, 347);
+            ClientSize = new Size(615, 386);
             Controls.Add(buttonOk_KNM);
-            Controls.Add(textBoxInfo_KNM);
+            Controls.Add(textBox_KNM);
             Controls.Add(pictureBox_KNM);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormAbout";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "О программе";
+            Text = "О разработчике";
             ((System.ComponentModel.ISupportInitialize)pictureBox_KNM).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -87,7 +87,7 @@
         #endregion
 
         private PictureBox pictureBox_KNM;
-        private TextBox textBoxInfo_KNM;
+        private TextBox textBox_KNM;
         private Button buttonOk_KNM;
     }
 }
